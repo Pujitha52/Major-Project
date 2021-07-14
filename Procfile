@@ -1,1 +1,1 @@
-streamlit run app.py
+wb: sh setup.sh && streamlit run app.py
