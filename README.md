@@ -1,2 +1,2 @@
 # Major-Project
-## Sentiment-Analysis using Machine Leaarning Algorithms
+## Sentiment-Analysis using Machine Learning Algorithms
