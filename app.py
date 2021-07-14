@@ -1,12 +1,12 @@
 import streamlit as st
-import pickle
+import joblib
 from sklearn import svm
 
 
 filename = 'classifier.sav'
-classifier_linear=pickle.load(open(filename,'rb'))
+classifier_linear=joblib.load(open(filename,'rb'))
 filename1 = 'vectorizer.sav'
-vectorizer=pickle.load(open(filename1,'rb'))
+vectorizer=joblib.load(open(filename1,'rb'))
 
 st.title('Sentiment Analysis using Machine Learning Algorithms')
 text=st.text_area('Enter text')
@@ -22,4 +22,3 @@ if st.button("Predict"):
     st.success('Text is POSITIVE')
   if (x[0]=='-1'):
     st.success(' Text is NEGATIVE')
-    
