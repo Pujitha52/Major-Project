@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-from sklearn import svm
+from sklearn import svm 
 
 
 filename = 'classifier.sav'
