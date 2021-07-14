@@ -22,3 +22,4 @@ if st.button("Predict"):
     st.success('Text is POSITIVE')
   if (x[0]=='-1'):
     st.success(' Text is NEGATIVE')
+    
